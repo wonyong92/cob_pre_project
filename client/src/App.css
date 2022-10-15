@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: auto;
+}
+/* MyButton */
+.MyButton {
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  border-radius: 3px;
+  width: 125px;
+  height: 35px;
+}
+.MyButton_orange {
+  background-color: #da680b;
+  color:white;
+}
+.MyButton_oragne:hover {
+  background-color: #b65607;
+}
+.MyButton_blue {
+  background-color: #0a95ff;
+  color: white;
+  border: 1px solid #0a95ff;
+}
+.MyButton_blue:hover {
+  background-color: #066ac8;
+}
+.MyButton_skyblue {
+  background-color: #dbeefd;
+  color: #024585;
+  border: 1px solid #64727e;
+}
+.MyButton_skyblue:hover {
+  background-color: #b8c8d5;
+}
+.MyButton_selected {
+  color: #cfd3d6;
+  background-color: #7d8287;
+  border: 1px solid #cfd3d6;
+}
+.MyButton_default {
+  color: #cfd3d6;
+  background-color: white;
+  border: 1px solid #cfd3d6;
+}
+.MyButton_default:hover {
+  background-color: #cfd3d6;
+}

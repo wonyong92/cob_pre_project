@@ -1,0 +1,253 @@
+= API 테스트 문서
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+jang won yong
+
+
+***
+== answer part
+=== check-answer
+
+
+.curl-request       // (1)
+include::{snippets}/check-answer/curl-request.adoc[]
+
+.http-request
+include::{snippets}/check-answer/http-request.adoc[]
+
+.http-response
+include::{snippets}/check-answer/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/check-answer/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/check-answer/response-body.adoc[]
+
+.response-fields
+include::{snippets}/check-answer/response-fields.adoc[]
+
+
+=== delete-answer
+
+
+.curl-request       // (1)
+include::{snippets}/delete-answer/curl-request.adoc[]
+
+.http-request
+include::{snippets}/delete-answer/http-request.adoc[]
+
+.http-response
+include::{snippets}/delete-answer/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/delete-answer/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/delete-answer/response-body.adoc[]
+
+.response-fields
+include::{snippets}/delete-answer/response-fields.adoc[]
+
+
+=== get-answer
+
+
+.curl-request       // (1)
+include::{snippets}/get-answer/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-answer/http-request.adoc[]
+
+.http-response
+include::{snippets}/get-answer/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/get-answer/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/get-answer/response-body.adoc[]
+
+.response-fields
+include::{snippets}/get-answer/response-fields.adoc[]
+
+
+=== post-answer
+
+
+.curl-request       // (1)
+include::{snippets}/post-answer/curl-request.adoc[]
+
+.http-request
+include::{snippets}/post-answer/http-request.adoc[]
+
+.http-response
+include::{snippets}/post-answer/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/post-answer/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/post-answer/response-body.adoc[]
+
+.response-fields
+include::{snippets}/post-answer/response-fields.adoc[]
+
+
+=== put-answer
+
+
+.curl-request       // (1)
+include::{snippets}/put-answer/curl-request.adoc[]
+
+.http-request
+include::{snippets}/put-answer/http-request.adoc[]
+
+.http-response
+include::{snippets}/put-answer/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/put-answer/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/put-answer/response-body.adoc[]
+
+.response-fields
+include::{snippets}/put-answer/response-fields.adoc[]
+
+***
+== commment part
+=== delete-comment
+
+.curl-request       // (1)
+include::{snippets}/delete-comment/curl-request.adoc[]
+
+.http-request
+include::{snippets}/delete-comment/http-request.adoc[]
+
+.http-response
+include::{snippets}/delete-comment/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/delete-comment/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/delete-comment/response-body.adoc[]
+
+.response-fields
+include::{snippets}/delete-comment/response-fields.adoc[]
+
+
+=== get-comment
+
+.curl-request       // (1)
+include::{snippets}/get-comment/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-comment/http-request.adoc[]
+
+.http-response
+include::{snippets}/get-comment/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/get-comment/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/get-comment/response-body.adoc[]
+
+.response-fields
+include::{snippets}/get-comment/response-fields.adoc[]
+
+
+=== post-comment
+
+.curl-request       // (1)
+include::{snippets}/post-comment/curl-request.adoc[]
+
+.http-request
+include::{snippets}/post-comment/http-request.adoc[]
+
+.http-response
+include::{snippets}/post-comment/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/post-comment/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/post-comment/response-body.adoc[]
+
+.response-fields
+include::{snippets}/post-comment/response-fields.adoc[]
+
+
+=== put-comment
+
+.curl-request       // (1)
+include::{snippets}/put-comment/curl-request.adoc[]
+
+.http-request
+include::{snippets}/put-comment/http-request.adoc[]
+
+.http-response
+include::{snippets}/put-comment/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/put-comment/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/put-comment/response-body.adoc[]
+
+.response-fields
+include::{snippets}/put-comment/response-fields.adoc[]
+
+
+== profile part
+=== post-profile
+
+.curl-request       // (1)
+include::{snippets}/post-profile-pic/curl-request.adoc[]
+
+.http-request
+include::{snippets}/post-profile-pic/http-request.adoc[]
+
+.http-response
+include::{snippets}/post-profile-pic/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/post-profile-pic/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/post-profile-pic/response-body.adoc[]
+
+.response-fields
+include::{snippets}/post-profile-pic/response-fields.adoc[]
+
+=== delete-profile
+
+.curl-request       // (1)
+include::{snippets}/delete-profile-pic/curl-request.adoc[]
+
+.http-request
+include::{snippets}/delete-profile-pic/http-request.adoc[]
+
+.http-response
+include::{snippets}/delete-profile-pic/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/delete-profile-pic/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/delete-profile-pic/response-body.adoc[]
+
+.response-fields
+include::{snippets}/delete-profile-pic/response-fields.adoc[]
+
+
+
+
+
+
